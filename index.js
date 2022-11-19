@@ -66,3 +66,8 @@ var questions = [
     answer: "D",
   },
 ];
+function game() {
+  for (var i = 0; i < questions.length; i++) {
+    movieQuiz(questions[i].question, questions[i].answer);
+  }
+}
