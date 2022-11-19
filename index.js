@@ -93,3 +93,6 @@ function showScores() {
   );
   highScores.map((score) => console.log(score.name, " : ", score.score));
 }
+welcome();
+game();
+showScores();
