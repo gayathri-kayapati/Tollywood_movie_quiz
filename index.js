@@ -4,6 +4,21 @@ function welcome() {
   var userName = readlineSync.question("May i know you name?\n");
   console.log("Wellcome " + userName + "!");
 }
+var highScores = [
+  {
+    name: "Chinna",
+    score: 5,
+  },
+
+  {
+    name: "Saleema",
+    score: 4,
+  },
+  {
+    name: "Sudha",
+    score: 5,
+  },
+];
 function movieQuiz(question, answer) {
   var userAnswer = readlineSync.question(question);
   if (userAnswer.toUpperCase() === answer.toUpperCase()) {
